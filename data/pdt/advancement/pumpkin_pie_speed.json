@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "ate pumpkin pie": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicate": "pdt:ate_pumpkin_pie"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pdt:pumpkin_speed"
+    }
+}
