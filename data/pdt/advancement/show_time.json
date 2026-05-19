@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "golpe_con_reloj": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:clock"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pdt:show_time"
+  }
+}

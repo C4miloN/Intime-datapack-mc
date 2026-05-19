@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:amethyst_shard"
     },
-    "title": "Cristales de tiempo",
-    "description": "Obtén cristales de amatistas",
+    "title": "Time crystals",
+    "description": "Obtain amethyst shard",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

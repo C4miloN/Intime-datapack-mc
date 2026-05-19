@@ -4,7 +4,7 @@
       "id": "minecraft:clock"
     },
     "title": "Prime Time",
-    "description": "Agrega tiempo al contador por primera vez",
+    "description": "Add time to the counter for the first time",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,0 +1,25 @@
+{
+    "display": {
+    "icon": {
+        "id": "minecraft:ender_eye"
+    },
+    "title": "End Race",
+    "description": "Upon entering the end for the first time, your time will reset.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+    "parent": "pdt:amethyst_shard",
+  "criteria": {
+    "entro_al_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    }
+  },
+  "rewards": {
+    "function": "pdt:time_reset"
+  }
+}

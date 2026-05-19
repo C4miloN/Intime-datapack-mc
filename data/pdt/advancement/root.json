@@ -4,7 +4,7 @@
       "id": "minecraft:waxed_copper_bulb"
     },
     "title": "InTime",
-    "description": "Desafíos InTime",
+    "description": "Challenges",
     "background": "minecraft:block/copper_block",
     "frame": "task",
     "show_toast": false,
