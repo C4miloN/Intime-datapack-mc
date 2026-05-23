@@ -33,6 +33,9 @@ execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand diamond_block run function pdt:don_diamond
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand netherite_scrap run function pdt:don_netherite_scrap
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand netherite_block run function pdt:don_netherite
+execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data~{batery:true}] run function pdt:don_batery
+execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.offhand minecraft:clock[minecraft:custom_data~{batery:true}] run function pdt:ext_batery
+
 ############################################################################################
 
 #aldeanos no tradean herramientas ni armor ##################################################
