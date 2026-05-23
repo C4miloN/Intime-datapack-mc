@@ -1,5 +1,6 @@
 clear @s netherite_block 1
 scoreboard players add @s death 9000
+title @a title {"text":"+9000s", "color": "green"}
 function pdt:check_first_donation
 advancement grant @s only pdt:prime
 particle minecraft:composter ~ ~1 ~ 1 0.5 1 0.1 20 force @s
