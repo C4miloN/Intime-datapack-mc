@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.1  
+**Versión:** 1.0.2  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
@@ -92,6 +92,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | Riqueza Eterna | Usa bloque de netherita | Al donar con netherite |
 | Prime Time | Agrega tiempo por primera vez | Al hacer tu primera donación |
 | Temporal Bank | Consigue la Batery por primera vez | Al obtener una Batery |
+| Profesional | Obtén pico de diamante con eficiencia 6 | Al encontrar el pico en arqueología |
 
 ---
 
@@ -110,6 +111,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 |---------|-------------|
 | `/function pdt:load` | Recarga el datapack manualmente |
 | `/scoreboard players set @s death <valor>` | Cambia tu tiempo restante |
+| `/scoreboard players set @s status <valor>` | Cambia tu estado vivo=0 , muerto =1 |
 | `/advancement grant @s only pdt:<id>` | Otorga un avancement manualmente |
 
 ---

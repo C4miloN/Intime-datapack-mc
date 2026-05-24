@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": "Profesional",
+    "description": "Obtain a diamond pickaxe with efficiency 6",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pdt:intime",
+  "criteria": {
+    "has_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ],
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 6
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
