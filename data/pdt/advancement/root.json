@@ -4,11 +4,11 @@
       "id": "minecraft:waxed_copper_bulb"
     },
     "title": "InTime",
-    "description": "Challenges",
+    "description": "Never lose your sight time",
     "background": "minecraft:block/copper_block",
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false,
+    "show_toast": true,
+    "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {

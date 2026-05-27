@@ -1,1 +1,1 @@
-scoreboard players set @s death 600
+scoreboard players set @s[scores={death=601.. , status=0}] death 600

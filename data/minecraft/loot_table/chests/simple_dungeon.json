@@ -154,8 +154,10 @@
                 },
                 "minecraft:rarity": "uncommon",
                 "minecraft:lore": [
-                  "Permite extraer o introducir tiempo vital mediante el pedestal",
-                  "Tiempo = 900"
+                  "Allows you to extract or add 900 vital time",
+                  "add vital time",
+                  "via the pedestal",
+                  "Warning: If the counter reaches zero, you die."
                 ],
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:custom_data": {

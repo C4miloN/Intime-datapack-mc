@@ -1,5 +1,7 @@
 scoreboard players add @a timer 1
 scoreboard players remove @a[scores={timer=20.., death=1.. , status=0}] death 1
+scoreboard players remove @a[scores={timer=20.., death=1.. , status=0, roulette_cooldown=1..}] roulette_cooldown 1
+scoreboard players remove @a[scores={timer=20.., death=1.. , status=0, batery_cooldown=1..}] batery_cooldown 1
 execute as @a[scores={timer=20, status=0}] run function pdt:ui
 scoreboard players reset @a[scores={timer=20..}] timer
 
@@ -35,6 +37,7 @@ execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand netherite_block run function pdt:don_netherite
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand minecraft:clock[minecraft:custom_data~{batery:true}] run function pdt:don_batery
 execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.offhand minecraft:clock[minecraft:custom_data~{batery:true}] run function pdt:ext_batery
+execute as @a[scores={roulette_cooldown=0}] at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon.mainhand lapis_block run function pdt:roulette/roulette
 
 ############################################################################################
 
@@ -50,7 +53,23 @@ execute as @a at @s if block ~ ~-1 ~ waxed_copper_bulb if items entity @s weapon
 
 #variantes de zombies#######################################################################
 execute as @e[type=minecraft:zombie , tag=!checked_zombie] run function pdt:mobs/check_zombie
+execute as @e[type=minecraft:drowned , tag=!checked_zombie] run function pdt:mobs/check_zombie
+execute as @e[type=minecraft:husk , tag=!checked_zombie] run function pdt:mobs/check_zombie
 ###########################################################################################
+
+#variantes de esqueletos#####################################################################
+execute as @e[type=minecraft:skeleton , tag=!checked_skeleton] run function pdt:mobs/check_skeleton
+execute as @e[type=minecraft:bogged , tag=!checked_skeleton] run function pdt:mobs/check_skeleton
+execute as @e[type=minecraft:parched , tag=!checked_skeleton] run function pdt:mobs/check_skeleton
+execute as @e[type=minecraft:stray , tag=!checked_skeleton] run function pdt:mobs/check_skeleton
+#############################################################################################
+
+#variantes de arañas##########################################################################
+execute as @e[type=minecraft:spider , tag=!checked_spider] run function pdt:mobs/check_spider
+#############################################################################################
+
+
+#blaze, piglin, wither skeleton,drowned
 
 #sheep boom##################################################################################
 execute as @e[type=minecraft:sheep , tag=!checked_sheep] run function pdt:mobs/check_sheep

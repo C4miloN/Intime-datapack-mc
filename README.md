@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.2  
+**Versión:** 1.0.3  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
@@ -37,6 +37,7 @@ Colócate sobre un **Pedestal** (waxed_copper_bulb) y ten el mineral en tu mano 
 | Bloque de Diamante | 1800s |
 | Fragmento de Netherita | 3600s |
 | Bloque de Netherita | 9000s |
+| Bloque de lapis | Gacha |
 | Batery (clock) | 900s |
 
 ### 📦 Pedestal
@@ -49,6 +50,13 @@ Al iniciar el mundo recibirás un **Pedestal** (waxed_copper_bulb personalizado)
 
 - **Mano derecha + pedestal**: Añade **900s** al contador. La Batery se consume.
 - **Mano izquierda + pedestal**: Extrae **900s** del contador y te da una Batery.
+- **Cooldown = 300
+
+### ♣️ Gacha - Roulette
+
+- **Permite la probabilidad de obtener diferentes minerales a partir de un bloque de lapiz (Copper , Gold, Iron, Diamond, Netherite).
+- **Good Luck.
+- **Cooldown = 60
 
 ### 🥧 Tarta de Calabaza
 
@@ -69,6 +77,14 @@ Las profesiones de **herrero de herramientas**, **herrero de armaduras** y **her
 ### ⚔️ Variantes de Zombies
 
 Los zombies tienen variantes aleatorias al aparecer.
+
+### ⚔️ Variantes de Esqueletos
+
+Los esqueletos tienen variantes aleatorias al tener mas 7200 de tiempo.
+
+### ⚔️ Variantes de arañas
+
+Las arañas tienen variantes aleatorias al tener mas 7200 de tiempo.
 
 ### 🐑 Ovejas Explosivas
 
@@ -93,6 +109,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | Prime Time | Agrega tiempo por primera vez | Al hacer tu primera donación |
 | Temporal Bank | Consigue la Batery por primera vez | Al obtener una Batery |
 | Profesional | Obtén pico de diamante con eficiencia 6 | Al encontrar el pico en arqueología |
+| Jackpot | Obtén un bloque de netherite en la ruleta | Al usar la ruleta |
 
 ---
 
@@ -115,6 +132,12 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | `/advancement grant @s only pdt:<id>` | Otorga un avancement manualmente |
 
 ---
+
+## Gallery
+![Imagen 1](https://i.imgur.com/2bh5rQB.png)
+![Imagen 2](https://i.imgur.com/TqxrtNj.png)
+![Imagen 3](https://i.imgur.com/71KDOnT.png)
+![Imagen 4](https://i.imgur.com/I5CFEWa.png)
 
 ## Créditos
 
