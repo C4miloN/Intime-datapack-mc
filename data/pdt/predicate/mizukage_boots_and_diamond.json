@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_boots"
+        ],
+        "components": {
+          "minecraft:custom_data": {
+            "mizukage_boots": true
+          }
+        }
+      },
+      "offhand": {
+        "items": [
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  }
+}

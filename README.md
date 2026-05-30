@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.3  
+**Versión:** 1.0.4  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
@@ -64,7 +64,7 @@ Comer tarta de calabaza otorga **velocidad II** por 180 segundos.
 
 ### 🌀 Ender Pearl + Pedestal
 
-Tener un **Ender Pearl** en la mano derecha sobre el pedestal te **teleporta 500 bloques** en la dirección que miras.
+Tener un **Ender Pearl** en la mano derecha sobre el pedestal te **teleporta 200 bloques** en la dirección que miras.
 
 ### 🕵️ Reloj + Jugador
 
@@ -109,6 +109,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | Prime Time | Agrega tiempo por primera vez | Al hacer tu primera donación |
 | Temporal Bank | Consigue la Batery por primera vez | Al obtener una Batery |
 | Profesional | Obtén pico de diamante con eficiencia 6 | Al encontrar el pico en arqueología |
+| Minero | Obtén casco de minero | Al encontrar el casco en un bastion |
 | Jackpot | Obtén un bloque de netherite en la ruleta | Al usar la ruleta |
 
 ---
@@ -129,6 +130,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | `/function pdt:load` | Recarga el datapack manualmente |
 | `/scoreboard players set @s death <valor>` | Cambia tu tiempo restante |
 | `/scoreboard players set @s status <valor>` | Cambia tu estado vivo=0 , muerto =1 |
+| `/scoreboard players set @s difficulty <valor>` | Cambia los mobs spawn y  daño por perder vida |
 | `/advancement grant @s only pdt:<id>` | Otorga un avancement manualmente |
 
 ---

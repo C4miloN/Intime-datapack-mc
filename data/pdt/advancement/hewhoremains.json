@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lapis_block"
+      "id": "minecraft:golden_sword"
     },
-    "title": "Jackpot",
-    "description": "Get a netherite block on the roulette wheel",
+    "title": "He who remains",
+    "description": "Unlocks the entrance at the end of time.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "pdt:intime",
+  "parent": "pdt:end_race",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

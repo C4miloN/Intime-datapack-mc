@@ -9,5 +9,6 @@ data merge entity @s {Motion:[0.0d,0.0d,0.0d]}
 
 tag @s add roulette_use
 clear @s lapis_block 1
+scoreboard players add @s roulette_use 1
 scoreboard players add @s roulette_cooldown 6
 function pdt:roulette/roulette_step_1

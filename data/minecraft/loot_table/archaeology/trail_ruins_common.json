@@ -144,12 +144,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:golden_pickaxe",
           "functions": [
             {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:efficiency": 6
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "text": "Pickaxe of the Ancients",
+                  "color": "green"
+                },
+                "minecraft:custom_data": {
+                  "Pickaxe": true
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:lore": [
+                  "Pyramid builder",
+                  "Can be upgraded with a diamond block on the pedestal"
+                ],
+                "enchantments": {
+                  "minecraft:efficiency": 6
+                }
               }
             }
           ]

@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_helmet"
+        ],
+        "components": {
+          "minecraft:custom_data": {
+            "mine_helmet": true
+          }
+        }
+      },
+      "offhand": {
+        "items": [
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  }
+}
