@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.4  
+**Versión:** 1.0.5  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
@@ -111,7 +111,7 @@ Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
 | Profesional | Obtén pico de diamante con eficiencia 6 | Al encontrar el pico en arqueología |
 | Minero | Obtén casco de minero | Al encontrar el casco en un bastion |
 | Jackpot | Obtén un bloque de netherite en la ruleta | Al usar la ruleta |
-
+| Storm Hunter | Mata un creeper miniboss | Mata un creeper miniboss , dificultad = 4 |
 ---
 
 ## Instalación

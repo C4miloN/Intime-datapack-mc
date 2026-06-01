@@ -15,6 +15,11 @@ execute as @e[type=minecraft:stray , tag=!checked_skeleton] run function pdt:mob
 
 execute as @e[type=minecraft:spider , tag=!checked_spider] run function pdt:mobs/check_spider
 
+execute as @e[type=minecraft:creeper , tag=!checked_creeper] run function pdt:mobs/check_creeper
+execute as @e[type=minecraft:creeper,tag=creeper_storm] at @s if predicate pdt:chance_005 run particle minecraft:electric_spark ~ ~1 ~ 0.6 0.6 0.6 0.05 20
+execute as @e[type=minecraft:creeper,tag=creeper_miniboss] at @s if predicate pdt:chance_05 run particle minecraft:wax_on ~ ~1 ~ 0.6 0.6 0.6 0.02 1
+execute as @e[type=minecraft:creeper,tag=creeper_invisi] at @s if predicate pdt:chance_05 run particle minecraft:electric_spark ~ ~1 ~ 0.6 0.6 0.6 0.02 1
+
 execute as @e[type=minecraft:blaze , tag=!checked_blaze] run function pdt:mobs/check_blaze
 execute as @e[type=minecraft:blaze,tag=hot_blaze] at @s run particle minecraft:wax_on ~ ~1 ~ 0.3 0.5 0.3 0.01 2
 execute as @e[type=minecraft:blaze,tag=hot_blaze] at @s run particle minecraft:electric_spark ~ ~1 ~ 0.2 0.5 0.2 0.01 1

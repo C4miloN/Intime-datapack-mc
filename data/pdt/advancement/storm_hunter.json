@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": "Storm Hunter",
+    "description": "Defeat a Storm Creeper",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "pdt:sheep_boom",
+  "criteria": {
+    "kill_storm_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+          "nbt": "{Tags:[\"creeper_miniboss\"]}"
+        }
+      }
+    }
+  }
+}

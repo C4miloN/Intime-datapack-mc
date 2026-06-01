@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "pdt:pumpkin_speed"
+        "function": "pdt:effects/pumpkin_speed"
     }
 }

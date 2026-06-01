@@ -14,6 +14,8 @@
 /summon minecraft:text_display ~ ~1 ~ {text:{text:"Hola Mundo", color: "#FFFFFF",  bold:true}}
 #bloques como entidades
 /summon block_display ~ ~1 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[2f,2f,2f],translation:[0f,0f,0f]},CustomNameVisible:1b,block_state:{Name:copper_block}}
+/summon block_display ~ ~1 ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[4f,6f,0.2f],translation:[0f,0f,0f]},block_state:{Name:lime_stained_glass}}
+
 
 
 #spawn mobs personalizados
