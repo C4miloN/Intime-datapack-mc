@@ -1,6 +1,5 @@
 say §aModo InTime Enable!
 
-scoreboard objectives add timer dummy "Tiempo de Juego"
 scoreboard objectives add death dummy
 scoreboard objectives add pedestal dummy "Recibio Pedestal"
 scoreboard objectives add guia dummy "Recibio Guia"
@@ -56,3 +55,6 @@ execute as @a[scores={guia=0}] run scoreboard players set @s guia 1
 
 #advancements
 advancement grant @a only pdt:root
+
+schedule function pdt:cont/cont 1s replace
+schedule function pdt:mobs/check_mobs 5s replace

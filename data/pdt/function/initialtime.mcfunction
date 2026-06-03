@@ -9,4 +9,4 @@ execute as @a[tag=queued_title] run title @s title [{"score":{"name":"@s" ,"obje
 execute as @a[tag=queued_title] at @s run particle minecraft:composter ~ ~1 ~ 1 0.5 1 0.1 20 force @s
 execute as @a[tag=queued_title] at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 0.5 1
 execute as @a[tag=queued_title] at @s run effect give @s speed 5
-schedule function pdt:initial 0.2s replace
+schedule function pdt:initialtime 0.2s replace
