@@ -440,45 +440,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": {
-                  "text": "Mizukage boots",
-                  "color": "green"
-                },
-                "minecraft:custom_data": {
-                  "mizukage_boots": true
-                },
-                "minecraft:rarity": "uncommon",
-                "minecraft:lore": [
-                  "Turn the lava at your feet into magma blocks",
-                  "Can be upgraded with a diamond block on the pedestal"
-                ],
-                "minecraft:enchantment_glint_override": true,
-                "minecraft:damage": 0,
-                "minecraft:max_damage": 1000
-              }
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
-        }
-      ],
-      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/bastion_treasure"

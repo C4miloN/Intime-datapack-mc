@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:entity",
+  "random_sequence": "minecraft:entities/ender_dragon",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+      {
+        "type": "minecraft:item",
+        "name": "minecraft:wild_armor_trim_smithing_template",
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 1.0
+          }
+        ]
+      }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 20
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+              "minecraft:item_name": {
+                "text": "Dragon Meat",
+                "color": "green",
+                "italic": false
+              },
+              "custom_data": {
+                "dragon_meat": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "The flesh of a legendary beast.",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Still radiates ancient End energy.",
+                  "color": "dark_purple",
+                  "italic": false
+                }
+              ],
+                "minecraft:rarity": "rare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

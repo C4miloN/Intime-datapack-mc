@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_spear"
+        ],
+        "components": {
+          "minecraft:custom_data": {
+            "spear_of_destiny": true
+          }
+        }
+      },
+      "offhand": {
+        "items": [
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  }
+}

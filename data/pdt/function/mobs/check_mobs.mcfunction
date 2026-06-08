@@ -20,10 +20,14 @@ execute as @e[type=minecraft:piglin, tag=!checked_piglin] run function pdt:mobs/
 
 execute as @e[type=minecraft:wither_skeleton , tag=!checked_wither] run function pdt:mobs/check_whiter
 
-execute as @e[type=minecraft:pillager , tag=!checked_pillager] run function pdt:mobs/check_pillager
-execute as @e[type=minecraft:phantom , tag=!checked_phantom] run function pdt:mobs/check_phantom
-execute as @e[type=minecraft:cow , tag=!checked_cow] run function pdt:mobs/check_cow
+execute as @e[type=minecraft:pillager , tag=!checked_pillager] if entity @p[distance=..64,scores={difficulty=3..}] run function pdt:mobs/check_pillager
+execute as @e[type=minecraft:phantom , tag=!checked_phantom] if entity @p[distance=..64,scores={difficulty=3..}] run function pdt:mobs/check_phantom
+execute as @e[type=minecraft:cow , tag=!checked_cow] if entity @p[distance=..64,scores={difficulty=4..}] run function pdt:mobs/check_cow
+execute as @e[type=minecraft:iron_golem , tag=!checked_irongolem] if entity @p[distance=..64,scores={difficulty=6..}] run function pdt:mobs/check_irongolem
 
 execute as @e[type=minecraft:sheep , tag=!checked_sheep] run function pdt:mobs/check_sheep
+
+execute as @e[type=minecraft:enderman , tag=!checked_enderman] if predicate pdt:is_end run function pdt:mobs/check_enderman
+execute as @e[type=minecraft:shulker , tag=!checked_shulker] if predicate pdt:is_end run function pdt:mobs/check_shulker
 
 schedule function pdt:mobs/check_mobs 15s replace

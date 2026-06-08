@@ -3,3 +3,6 @@ execute if entity @p[distance=..64,scores={difficulty=1..}] if predicate pdt:cha
 execute if entity @p[distance=..64,scores={difficulty=2..}] if predicate pdt:chance_01 run function pdt:mobs/skeleton_elwithermc
 execute if entity @p[distance=..64,scores={difficulty=2..}] if predicate pdt:chance_20 run function pdt:mobs/skeleton_wither
 execute if entity @p[distance=..64,scores={difficulty=3..}] if predicate pdt:chance_08 run function pdt:mobs/skeleton_captain
+execute if entity @p[distance=..64,scores={difficulty=5..}] if predicate pdt:chance_20 run function pdt:mobs/skeleton_wolf
+execute if entity @p[distance=..64,scores={difficulty=5..}] run effect give @s regeneration infinite 2 false
+execute if entity @p[distance=..64,scores={difficulty=5..}] run enchant @s punch 4

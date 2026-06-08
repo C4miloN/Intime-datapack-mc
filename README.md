@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.5  
+**Versión:** 1.0.6  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
@@ -93,6 +93,20 @@ Algunas ovejas pueden ser explosivas, cuidado al acercarte.
 ### 🗿 Golem de Hierro
 
 Dropea **pepitas de hierro** (3-5) y **amapolas** (0-2).
+
+### 🏆 Dificultades
+
+Acumular tiempo aumenta la dificultad generando nuevas variantes de mobs hostiles
+
+| Dificultad | Tiempo | Dias |
+|---------|--------|--------|
+| 0 | +0 | +0
+| 1 | +1800 | +5
+| 2 | +3600 | +10
+| 3 | +7200 | +15
+| 4 | +10800 | +20
+| 5 | +14400 | +30
+| 6 | +18000 | +40
 
 ---
 

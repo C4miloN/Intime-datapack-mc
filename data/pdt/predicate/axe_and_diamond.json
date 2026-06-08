@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_axe"
+        ],
+        "components": {
+          "minecraft:custom_data": {
+            "viking_axe": true
+          }
+        }
+      },
+      "offhand": {
+        "items": [
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  }
+}

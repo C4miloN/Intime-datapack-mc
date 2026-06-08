@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:golden_sword"
+        ],
+        "components": {
+          "minecraft:custom_data": {
+            "soul_plunderer": true
+          }
+        }
+      },
+      "offhand": {
+        "items": [
+          "minecraft:diamond_block"
+        ]
+      }
+    }
+  }
+}
