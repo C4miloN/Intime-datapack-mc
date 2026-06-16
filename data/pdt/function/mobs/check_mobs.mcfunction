@@ -29,5 +29,13 @@ execute as @e[type=minecraft:sheep , tag=!checked_sheep] run function pdt:mobs/c
 
 execute as @e[type=minecraft:enderman , tag=!checked_enderman] if predicate pdt:is_end run function pdt:mobs/check_enderman
 execute as @e[type=minecraft:shulker , tag=!checked_shulker] if predicate pdt:is_end run function pdt:mobs/check_shulker
+execute as @e[type=minecraft:elder_guardian , tag=!checked_elder] if entity @p[distance=..64,scores={difficulty=4..}] run function pdt:mobs/check_elder
+
+execute as @a[scores={difficulty=6..}] at @s if predicate pdt:chance_08 if block ~30 ~ ~ minecraft:air if block ~30 ~1 ~ minecraft:air run function pdt:mobs/breeze_horda
+execute as @a[scores={difficulty=6..}] at @s if predicate pdt:chance_08 run function pdt:mobs/tadpole_horda
+execute as @e[type=minecraft:tadpole , tag=tadpole_horda] at @s if entity @a[distance=..3] run effect give @a[distance=..3] minecraft:poison 10 1
+execute as @e[type=minecraft:tadpole , tag=tadpole_horda] at @s if entity @a[distance=..3] run effect give @a[distance=..3] minecraft:bad_omen 60 1
+execute as @a[scores={difficulty=6..}] at @s if predicate pdt:chance_08 if predicate pdt:night run function pdt:mobs/creaking_horda
+execute as @a[scores={difficulty=6..}] at @s if predicate pdt:chance_08 run function pdt:mobs/vex_ghost
 
 schedule function pdt:mobs/check_mobs 15s replace

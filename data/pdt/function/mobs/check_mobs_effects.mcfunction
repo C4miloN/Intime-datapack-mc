@@ -14,7 +14,14 @@ execute as @e[tag=chronos_zombie] at @s run particle minecraft:flame ~ ~1 ~ 0.5 
 execute as @e[tag=chronos_zombie] at @s run particle minecraft:soul_fire_flame ~ ~1 ~ 0.3 0.8 0.3 0.01 2
 execute as @e[tag=chronos_zombie] at @s run particle minecraft:ash ~ ~1 ~ 0.4 0.8 0.4 0.01 1
 execute as @e[tag=chronos_zombie] at @s if entity @a[distance=..3] run function pdt:mobs/zombie_chronos_effect
+execute as @e[tag=elder_miniboss] at @s if entity @a[distance=..15] if predicate pdt:chance_20 run summon guardian ~ ~ ~
 
 execute as @e[type=minecraft:ghast,tag=enderman_ghast] at @s if predicate pdt:chance_005 run tp @s ^ ^ ^30
 execute as @e[type=fireball] at @s if entity @a[distance=..5] if predicate pdt:is_end run damage @p[distance=..5] 10
 execute as @e[type=fireball] at @s if entity @a[distance=..5] if predicate pdt:is_end run playsound minecraft:entity.generic.explode player @a[distance=..5] ~ ~ ~ 1 1
+
+execute as @e[tag=vex_ghost] at @s run particle minecraft:soul_fire_flame ~ ~0.5 ~ 0.3 0.3 0.3 0.01 2
+execute as @e[tag=vex_ghost] if predicate pdt:chance_01 run effect give @s minecraft:invisibility 3 0 true
+
+execute as @e[type=minecraft:block_display,tag=green_crystal] at @s run particle minecraft:glow_squid_ink ~ ~2 ~1.5 0.5 1.5 0.5 0.001 1
+#execute as @e[type=minecraft:block_display,tag=green_crystal] at @s if entity @p[distance=..3] run say coming soon :(

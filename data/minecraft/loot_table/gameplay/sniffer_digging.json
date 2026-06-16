@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+        "type": "minecraft:item",
+        "name": "minecraft:rabbit_foot",
+        "weight": 1,
+        "functions": [
+          {
+            "function": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": {
+                "text": "Rabbit Foot"
+              },
+              "minecraft:custom_data": {
+                "rabitfoot": true
+              },
+              "minecraft:rarity": "uncommon",
+              "minecraft:lore": [
+                  "Jump Boost",
+                  "Use in offhand"
+              ],
+              "minecraft:enchantment_glint_override": true
+            }
+          }
+        ]
+      }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

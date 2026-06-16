@@ -3,15 +3,15 @@ execute align xyz run tp @s ~0.5 ~ ~0.5
 
 setblock ~0 ~-2 ~0 barrier
 # Piso (y = -1 respecto al jugador)
-setblock ~-1 ~-1 ~-1 barrier
+#setblock ~-1 ~-1 ~-1 barrier
 setblock ~-1 ~-1 ~0 barrier
-setblock ~-1 ~-1 ~1 barrier
+#setblock ~-1 ~-1 ~1 barrier
 setblock ~0 ~-1 ~-1 barrier
 #pedestal
 setblock ~0 ~-1 ~1 barrier
-setblock ~1 ~-1 ~-1 barrier
+#setblock ~1 ~-1 ~-1 barrier
 setblock ~1 ~-1 ~0 barrier
-setblock ~1 ~-1 ~1 barrier
+#setblock ~1 ~-1 ~1 barrier
 
 # Paredes (y = 0)
 setblock ~-1 ~0 ~-1 barrier

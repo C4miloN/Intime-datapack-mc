@@ -1,6 +1,8 @@
 #spawn de cofre con loot
 /setblock ~ ~ ~ minecraft:chest{LootTable:"minecraft:chests/simple_dungeon"}
 /setblock ~ ~ ~ minecraft:suspicious_sand{LootTable:"minecraft:archaeology/trail_ruins_common"}
+/setblock ~ ~ ~ minecraft:weathered_copper_chest{LootTable:"minecraft:chests/end_city_treasure"}
+setblock ~ ~ ~ minecraft:weathered_copper_chest[facing=south]{LootTable:"minecraft:chests/end_city_treasure"}
 
 #manejo scoreboards
 /scoreboard players set C4miloN status 0
@@ -24,3 +26,7 @@
 
 #advancement
 /advancement revoke C4miloN everything
+
+#abrir otra dimension
+/execute in dimension run tp @p ~ ~ ~
+/execute in rename_me:custom_dimension run spreadplayers -13.56 16.44 10 10 under 384 false @p

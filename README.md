@@ -1,6 +1,6 @@
 # InTime Datapack
 
-**Versión:** 1.0.6  
+**Versión:** 1.0.7  
 **Autor:** C4miloN  
 **Inspirado en:** La película *In Time* (2011)
 
